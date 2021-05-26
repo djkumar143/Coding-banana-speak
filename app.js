@@ -3,7 +3,7 @@ var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
   function clickHandler() {
-    outputDiv.innerText = "fyagsfgsyag " + textInput.value;
+    outputDiv.innerText = "fyagsfgsyag " + txtInput.value;
 };
 
 btnTranslate.addEventListener("click", clickHandler)
